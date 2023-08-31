@@ -1,0 +1,128 @@
+.footer-nav a{
+	line-height: 24px;
+	font-size: 16px;
+	color: white;
+}
+
+.social-icons li img{
+	width: 48px;
+	height: 48px;
+}
+
+.social-icons li{
+	margin-right: 32px;
+}
+
+.social-icons li:last-child {
+	margin-right: 0px;
+}
+
+
+footer .phone, footer .email{
+	line-height: 54px;
+	font-size: 36px;
+	color: white;
+}
+
+.material-symbols-outlined{
+	font-size: 36px;
+	color: white;
+}
+
+.copywrite{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.terms{
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.p-footer{
+	display: none;
+}
+
+.social-icons li img{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.social-icons li{
+		margin-right: 16px;
+	}
+	
+	.social-icons li:last-child {
+		margin-right: 0px;
+	}
+
+	.p-footer{
+		display: none;
+	}
+
+  /* tablet */
+@media(max-width: 992px){
+	
+	.social-icons li img{
+		width: 40px;
+		height: 40px;
+	}
+	
+	.social-icons li{
+		margin-right: 16px;
+	}
+	
+	.social-icons li:last-child {
+		margin-right: 0px;
+	}
+
+	.p-footer{
+		display: none;
+	}
+
+}
+
+/* phone */
+@media(max-width: 767px){
+
+	footer{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.social-icons{
+		margin-left: auto;
+	}
+
+	.social-icons li img{
+		width: 24px;
+		height: 24px;
+	}
+	
+	.social-icons li{
+		margin-right: 8px;
+	}
+	
+	.social-icons li:last-child {
+		margin-right: 0px;
+	}
+
+	footer .phone, footer .email{
+		line-height: 24px;
+		font-size: 16px;
+		color: white;
+	}
+
+	.material-symbols-outlined{
+		font-size: 18px;
+	}
+
+	footer .container{
+		display: none;
+	}
+
+	.p-footer{
+		display: block;
+	}
+
+}
