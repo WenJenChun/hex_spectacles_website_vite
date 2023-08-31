@@ -19,18 +19,17 @@ nav{
 
 .nav-item{
 	margin-right: 64px;
+
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+  }
 }
 
 .nav-item:last-child{
 	margin-right: 0px;
-}
-
-.nav-item a{
-	text-decoration: none;
-	font-family: 'Noto Sans TC', sans-serif;
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 400;
 }
 
 /* phone */
