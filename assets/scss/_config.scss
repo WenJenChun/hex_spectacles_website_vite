@@ -6,6 +6,26 @@ body, footer, header{
     font-family: $font-family-base;
 }
 
+.bold{
+	font-weight: bold;
+}
+
+.lh-24{
+	line-height: 24px;
+}
+
+.font-16{
+	font-size: 16px;
+}
+
+.font-20{
+	font-size: 20px;
+}
+
+.font-24{
+	font-size: 24px;
+}
+
 .white{
 	color: white;
 }
@@ -35,7 +55,7 @@ body, footer, header{
 }
 
 .container{
-	width: 1296px;
+	max-width: 1296px;
 	margin: 0 auto;
 }
 
@@ -90,8 +110,16 @@ body, footer, header{
 	margin-top: 16px;
 }
 
+.mt-24{
+	margin-top: 24px;
+}
+
 .mt-32{
 	margin-top: 32px;
+}
+
+.mt-96{
+	margin-top: 96px;
 }
 
 .mb-80{
